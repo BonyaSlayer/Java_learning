@@ -1,0 +1,6 @@
+.git
+.gitignore
+HW2.java
+HW2.txt
+log.txt
+README.md
