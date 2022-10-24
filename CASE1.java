@@ -32,6 +32,7 @@ public class CASE1 {
     public static int[] deleteEvenElement(int[] array) {
         int i, j;
         for (i = 0, j = 1; j < array.length; i++, j += 2) {
+            if(i%2 == 0)
             array[i] = array[j];
         }
         return Arrays.copyOf(array, i);
